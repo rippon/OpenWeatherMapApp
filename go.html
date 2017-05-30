@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>myOpenWeatherApp</title>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+        <!-- The three lines needed to make responsive START next. -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- The three lines needed to make responsive END above. -->
+        
+        <script src="go.js"></script>
+    </head>
+<body>
+<div class="container-fluid" align='center'>
+    
+<h2>Choose capital cities </h2>
+<h5>(this app uses the Open Weather API)</h5>
+
+<p>
+    <button id="showCapitalCityButtons" type="button" class="btn btn-primary">
+        show capital cities selection
+    </button>
+    <button id="showGraph" type="button" class="btn btn-primary">show graph</button>
+    <button id="resetButton" onclick="reset()" type="button" class="btn btn-default">
+        reset
+    </button>
+</p>
+<p id="dataDisplayArea">
+<p>
+    
+</p>
+<p id="graphArea"></p>
+<p id='tablePosition'></p>
+
+</div>
+</body>
+
+</html>
